@@ -6068,4 +6068,9 @@
     <string name="navigation_bar_default">Default (Center)</string>
     <string name="navigation_bar_left">Left</string>
     <string name="navigation_bar_right">Right</string>
+
+    <!--Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
 </resources>
