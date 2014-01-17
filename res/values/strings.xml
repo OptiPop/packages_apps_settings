@@ -6597,4 +6597,7 @@
     <string name="mount_notification_title">Mount notification</string>
     <string name="mount_notification_summary">Display ongoing notification for mounted storage</string>
 
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
+
 </resources>
