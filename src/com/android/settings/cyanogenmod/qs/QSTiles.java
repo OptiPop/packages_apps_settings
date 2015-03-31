@@ -228,6 +228,7 @@ public class QSTiles extends Fragment implements
                     PorterDuff.Mode.SRC_ATOP);
             icon.setImageDrawable(d);
             TextView title = (TextView) qsTile.findViewById(android.R.id.title);
+            title.setTextColor(getResources().getColor(R.color.qs_tile_tint_color));
             title.setText(item.name);
         }
         qsTile.setTag(tileType);
