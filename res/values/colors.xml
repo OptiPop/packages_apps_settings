@@ -87,8 +87,8 @@
     <color name="qs_tile_tint_color">#FF009587</color>
 
     <!-- Expanded desktop -->
-    <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
-    <drawable name="expanded_item_bg">@android:color/background_light</drawable>
+    <drawable name="expanded_item_bg_activated">#ff263238</drawable>
+    <drawable name="expanded_item_bg">@*android:color/material_blue_grey</drawable>
     <color name="expanded_button_color_normal">#4CAF50</color>
     <color name="expanded_button_color_close">#F44336</color>
 </resources>
