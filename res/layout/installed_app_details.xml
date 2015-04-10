@@ -420,6 +420,7 @@
                 style="?android:attr/listSeparatorTextViewStyle"
                 android:id="@+id/permissions_label"
                 android:text="@string/permissions_label"
+                android:textColor="@color/security_settings_billing_desc_color"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_alignParentStart="true"
                 android:layout_width="match_parent"
