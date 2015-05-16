@@ -6355,7 +6355,10 @@
     <string name="qs_tile_nfc">NFC</string>
     <string name="qs_tile_compass">Compass</string>
     <string name="qs_tile_screen_timeout">Screen timeout</string>
-    <string name="qs_tile_lte">Lte</string>
+    <string name="qs_tile_lte">Lte</string>  
+    <string name="qs_expanded_desktop_tile">Expanded desktop</string>
+    <string name="qs_screen_off_tile">Screen off</string>  
+    <string name="qs_sync_tile">Sync</string>
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_dlg_title">Enable privacy guard?</string>
@@ -6436,6 +6439,7 @@
     <string name="lockscreen_none_target">None</string>
     <string name="lockscreen_message">Tap an icon on the left or right to reassign a lock screen shortcut.</string>
     <string name="lockscreen_choose_action_title">Choose action</string>
+    <string name="qs_screenshot_tile">Screenshot</string>
 
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Expanded desktop</string>
@@ -6450,6 +6454,7 @@
     <string name="expanded_desktop_style">Expanded desktop style</string>
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="qs_tile_usb_tether">USB tethering</string>
 
     <!-- Keyboard and Input ASS methods -->
     <string name="show_enter_key_title">Show enter key</string>
