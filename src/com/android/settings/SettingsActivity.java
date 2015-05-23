@@ -106,6 +106,7 @@ import com.android.settings.notification.ZenModeSettings;
 import com.android.settings.print.PrintJobSettingsFragment;
 import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.sim.SimSettings;
+import com.android.settings.slim.NavigationSettings;
 import com.android.settings.tts.TextToSpeechSettings;
 import com.android.settings.users.UserSettings;
 import com.android.settings.voice.VoiceInputSettings;
@@ -223,6 +224,7 @@ public class SettingsActivity extends Activity
             R.id.data_usage_settings,
             R.id.sim_settings,
             R.id.wireless_settings,
+            R.id.navigation_settings,
             R.id.device_section,
             R.id.notification_settings,
             R.id.display_settings,
@@ -307,8 +309,9 @@ public class SettingsActivity extends Activity
             OtherSoundSettings.class.getName(),
             QuickLaunchSettings.class.getName(),
             ApnSettings.class.getName(),
-            BlacklistSettings.class.getName(),         
-            DisplayRotation.class.getName(),          
+            BlacklistSettings.class.getName(),
+            DisplayRotation.class.getName(),
+            NavigationSettings.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName()
     };
 
