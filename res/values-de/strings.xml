@@ -182,8 +182,7 @@
     <string name="choose_timezone" msgid="1362834506479536274">"Zeitzone wählen"</string>
     <string name="display_preview_label" msgid="1127597250917274792">"Vorschau:"</string>
     <string name="display_font_size_label" msgid="8941851418397475389">"Schriftgröße:"</string>
-    <!-- no translation found for intent_sender_data_label (6332324780477289261) -->
-    <skip />
+    <string name="intent_sender_data_label" msgid=""><xliff:g id="data">"Daten:</xliff:g>"</string>
     <string name="intent_sender_sendbroadcast_text" msgid="1415735148895872715">"<xliff:g id="BROADCAST">broadcast</xliff:g> senden"</string>
     <string name="intent_sender_action_label" msgid="616458370005452389">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="5080516029580421895">"<xliff:g id="ACTIVITY">activity</xliff:g> starten"</string>
@@ -477,8 +476,7 @@
     <string name="bluetooth_pin_values_hint" msgid="3815897557875873646">"In der Regel 0000 oder 1234"</string>
     <string name="bluetooth_enter_pin_other_device" msgid="4637977124526813470">"Möglicherweise müssen Sie diese PIN auch auf dem anderen Gerät eingeben."</string>
     <string name="bluetooth_enter_passkey_other_device" msgid="2798719004030279602">"Möglicherweise müssen Sie diesen Zugangscode auch auf dem anderen Gerät eingeben."</string>
-    <!-- syntax error in translation for bluetooth_confirm_passkey_msg (3708312912841950052) org.xmlpull.v1.XmlPullParserException: name expected (position:START_TAG <null>@1:243 in     <string name="bluetooth_confirm_passkey_msg" msgid="3708312912841950052">"Zum Pairing mit:&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Vergewissern Sie sich, dass folgender Zugangscode angezeigt wird:<&lt;br&gt;&lt;b&gt;P<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;."</string>
-)  -->
+    <string name="bluetooth_confirm_passkey_msg" msgid="">"Zum verbinden mit:&lt;br>&lt;b><xliff:g id="device_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br>Stelle sicher, das es diesen PIN anzeigt:&lt;br>&lt;b><xliff:g id="passkey">%2$s</xliff:g>&lt;/b>"</string>
     <string name="bluetooth_incoming_pairing_msg" msgid="1615930853859551491">"Von:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Pairing mit diesem Gerät durchführen?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="2796550001376088433">"Geben Sie zum Pairing mit <xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g> <xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g> ein und drücken Sie anschließend die Eingabetaste."</string>
     <string name="bluetooth_pairing_accept" msgid="6163520056536604875">"Pairing durchführen"</string>
@@ -2513,4 +2511,505 @@
     <string name="imei_information_title" msgid="8499085421609752290">"IMEI-Informationen"</string>
     <string name="imei_information_summary" msgid="2074095606556565233">"Informationen zur relativen IMEI"</string>
     <string name="slot_number" msgid="3762676044904653577">"(Slot <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+    <string name="ok_string" msgid="">OK</string>
+    <string name="default_string" msgid="">"Standard"</string>
+    <string name="enabled_string" msgid="">"Aktiviert"</string>
+    <string name="disabled_string" msgid="">"Deaktiviert"</string>
+    <string name="general_string" msgid="">"Generell"</string>
+    <string name="reset_string" msgid="">"Zurücksetzen"</string>
+    <string name="reset" msgid="">"Zurücksetzen"</string>
+    <string name="empty_string" msgid="">"Empty"Leer"</string>
+    <string name="ok" msgid="">"OK"</string>
+    <string name="font_size_sample" msgid="">"Beispiel"</string>
+    <string name="help" msgid="">"Help"Hilfe"</string>
+    <string name="add" msgid="">"Hinzufügen</string>
+    <string name="attention" msgid="">"Attention"Achtung"</string>
+    <string name="enabled" msgid="">"Aktiviert"</string>
+    <string name="default_string" msgid="">"Standard"</string>
+    <string name="choose_app" msgid="">"App wählen"</string>
+    <string name="reset_message" msgid="">"Alle Einträge auf Standard zurücksetzen?"</string>
+    <string name="additional_options_title" msgid="">"Zusatzoptionen"</string>
+    <string name="restart_systemui" msgid="">"Neustart System-UI"</string>
+    <string name="status_bar_battery_style_title" msgid="">"Stil der Akku Anzeige"</string>
+    <string name="status_bar_battery_style_icon_portrait" msgid="">"Akku-Symbol Hochformat"</string>
+    <string name="status_bar_battery_style_icon_landscape" msgid="">"Akku-Symbol Querformat"</string>
+    <string name="status_bar_battery_style_circle" msgid="">"Kreis"</string>
+    <string name="status_bar_battery_style_circle_dotted" msgid="">"Kreis (gestrichelt)"</string>
+    <string name="status_bar_battery_style_text" msgid="">"Text"</string>
+    <string name="status_bar_battery_style_hidden" msgid="">"Versteckt"</string>
+    <string name="status_bar_battery_percentage_title" msgid="">"Prozentanzeig Akku"</string>
+    <string name="status_bar_battery_percentage_default"> msgid="">"Versteckt (Standard)"</string>
+    <string name="status_bar_battery_percentage_text_inside" msgid="">"Innerhalb des Symbols"</string>
+    <string name="status_bar_battery_percentage_text_next" msgid="">"Neben dem Symbol"</string>
+    <string name="volume_rocker_screen_title" msgid="">"Lautstärketaste"</string>
+    <string name="volume_key_cursor_control_title" msgid="">"Lautstärketaste Cursor-Steuerung"</string>
+    <string name="volume_key_cursor_control_off" msgid="">"Deaktiviert"</string>
+    <string name="volume_key_cursor_control_on" msgid="">"Lautstärketaste hoch/runter bewegt den Cursor links/rechts"</string>
+    <string name="volume_key_cursor_control_on_reverse" msgid="">"Lautstärketaste hoch/runter bewegt den Cursor rechts/links"</string>
+    <string name="kill_app_longpress_back" msgid="">"Anwendung beenden mit "Zurück Taste""</string>
+    <string name="kill_app_longpress_back_settings" msgid="">"Anwendung beenden mit "Zurück Taste" Einstellungen"</string>
+    <string name="kill_app_longpress_back_summary" msgid="">"Beendet die geöffnete Anwendung mit dem langen gedrückt halten der "Zurück Taste""</string>
+    <string name="long_press_kill_delay" msgid="">"Verzögerung zum beenden"</string>
+    <string name="network_traffic_title" msgid="">"Datenverkehr"</string>
+    <string name="show_network_traffic_state" msgid="">"Datenverkehrs in Statusleiste"</string>
+    <string name="network_traffic_summary" msgid="">"Aktiviert die Anzeige des Datenverkehrs in der Statusleiste"</string>
+    <string name="show_network_traffic_unit" msgid="">"Angezeigte Einheit"</string>
+    <string name="show_network_traffic_frequency" msgid="">"Aktualisierungsintervall"</string>
+    <string name="show_network_traffic_disable" msgid="">"Deaktiviert"</string>
+    <string name="show_network_traffic_up" msgid="">"Ausgehend"</string>
+    <string name="show_network_traffic_down" msgid="">"Eingehend"</string>
+    <string name="show_network_traffic_all" msgid="">"Aus- und Eingehend"</string>
+    <string name="show_network_traffic_bit" msgid="">"Bits pro Sekunde"</string>
+    <string name="show_network_traffic_byte" msgid="">"Bytes pro Sekunde"</string>
+    <string name="show_network_traffic_500" msgid="">"500 ms"</string>
+    <string name="show_network_traffic_1000" msgid="">"1000 ms"</string>
+    <string name="show_network_traffic_1500" msgid="">"1500 ms"</string>
+    <string name="show_network_traffic_2000" msgid="">"2000 ms"</string>
+    <string name="network_traffic_autohide" msgid="">"Automatisch ausblenden"</string>
+    <string name="network_traffic_autohide_summary" msgid="">"Blendet die Anzeige aus, wenn kein Datenverkehr besteht"</string>
+    <string name="network_traffic_autohide_threshold" msgid="">"Schwelle für das ausblenden"</string>
+    <string name="network_traffic_color_style" msgid="">"Farbe"</string>
+    <string name="network_traffic_color_reset" msgid="">"Farbe zurücksetzen"</string>
+    <string name="network_traffic_color_reset_message" msgid="">"Zurücksetzen der Farbe auf Standard?"</string>
+    <string name="recents_panel_settings" msgid="">""Zuletzt geöffnete Anwendungen" Einstellungen"</string>
+    <string name="show_clear_all_recents_button_title" msgid="">""Alle löschen" Schaltfläche"</string>
+    <string name="show_clear_all_recents_button_summary" msgid="">"Anzeige der "Alle löschen" Schaltfläche in den "Zuletzt geöffnete Anwendungen""</string>
+    <string name="recents_clear_all_location_title" msgid="">"Position der Schaltfläche"</string>
+    <string name="recents_clear_all_location_top_right" msgid="">"Oben rechts"</string>
+    <string name="recents_clear_all_location_top_center" msgid="">"Oben mittig"</string>
+    <string name="recents_clear_all_location_top_left" msgid="">"Oben links"</string>
+    <string name="recents_clear_all_location_bottom_right" msgid="">"Unten rechts"</string>
+    <string name="recents_clear_all_location_bottom_center" msgid="">"Unten mittig"</string>
+    <string name="recents_clear_all_location_bottom_left" msgid="">"Unten links"</string>
+    <string name="ui_customization_title" msgid="">"UI Anpassung"</string>
+    <string name="animation_scale_settings" msgid="">"Einstellungen für Animationsgeschwindigkeit"</string>
+    <string name="window_animation_scale_title" msgid="">"Geschwindigkeit Fensteranimation"</string>
+    <string name="transition_animation_scale_title" msgid="">"Geschwindigkeit Übergangsanimation"</string>
+    <string name="animator_duration_scale_title" msgid="">"Geschwindigkeit der Animationszeit"</string>
+    <string name="dialog_color_picker" msgid="">"Farbwahl"</string>
+    <string name="press_color_to_apply" msgid="">"Drücke auf die Farbe unten zum übernehmen"</string>
+    <string name="set" msgid="">"Übernehmen"</string>
+    <string name="color_default" msgid="">"Standard"</string>
+    <string name="display_rotation_title" msgid="">"Display automatisch drehen"</string>
+    <string name="display_rotation_disabled" msgid="">"Deaktiviert"</string>
+    <string name="display_rotation_unit" msgid="">"Grad"</string>
+    <string name="display_rotation_category_title" msgid="">"Einstellungen"</string>
+    <string name="display_rotation_0_title" msgid="">"0 Grad"</string>
+    <string name="display_rotation_90_title" msgid="">"90 Grad"</string>
+    <string name="display_rotation_180_title" msgid="">"180 Grad"</string>
+    <string name="display_rotation_270_title" msgid="">"270 Grad"</string>
+    <string name="advanced_sound_title" msgid="">"Erweitert Optionen"</string>
+    <string name="sound_title" msgid="">"Ton"</string>
+    <string name="safe_headset_volume_title" msgid="">"Headset Lautstärke speichern"</string>
+    <string name="safe_headset_volume_summary" msgid="">"Schutz vor zu hoher Lautstärke, wenn das Headset das erste mal benutzt wird"</string>
+    <string name="safe_headset_volume_warning_dialog_text" msgid="">"Musikgenuss mit zu hoher Lautstärke kann langfristig zu Hörschäden führen. Sei Dir bei der Deaktivierung darüber bewusst."</string>
+    <string name="volume_keys_control_media_stream" msgid="">"Einstellungen zur Medienlautstärke"</string>
+    <string name="volume_keys_control_media_stream_summary" msgid="">"Die Lautstärketasten steuern die Medienlautstärke bevorzugt vor der Benachrichtigungslautstärke"</string>
+    <string name="display_category_wakeup_options_title" msgid="">"Aufwach Optionen"</string>
+    <string name="pref_volume_wake_title" msgid="">"Wecken mit Lautstärketasten"</string>
+    <string name="pref_volume_wake_summary" msgid="">"Betätigung der Lautstärketasten bei ausgeschalteten Display soll dieses einschalten"</string>
+    <string name="wakeup_when_plugged_unplugged_title" msgid="">"Display einschalten beim laden"</string>
+    <string name="wakeup_when_plugged_unplugged_summary" msgid="">"Display einschalten, wenn das Ladegerät an-/abgesteckt wird."</string>
+    <string name="volume_key_adjust_sound_title" msgid="">"Lautstärketasten Änderungston"</string>
+    <string name="volume_key_adjust_sound_summary" msgid="">"Ein Ton wird wiedergegeben, wenn die Lautstärke mit den Lautstärketasten geändert wird."</string>
+    <string name="status_bar_double_tap_to_sleep_title" msgid="">"Doppelt tippen zum "schlafen""</string>
+    <string name="status_bar_double_tap_to_sleep_summary" msgid="">"Aktiviert oder deaktiviert die "doppelt antippen zum schlafen" Funktion über die Statusleiste."/string>
+    <string name="status_bar_general_category" msgid="">"Generell"</string>
+    <string name="status_bar_title" msgid="">"Statusleiste"</string>
+    <string name="status_bar_quick_qs_pulldown_title" msgid="">Schnelles öffnen der Schnelleinstellungen</string>
+    <string name="status_bar_quick_qs_pulldown_summary" msgid="">"Ermöglicht es, die Schnelleinstellungen mit einem Finger durch das herunterziehen der Statusleiste zu öffnen."</string>
+    <string name="status_bar_toggle_brightness" msgid="">"Helligkeitseinstellung"</string>
+    <string name="status_bar_toggle_brightness_summary" msgid="">"Verändert die Helligkeit durch das wischen (links <> rechts) über die Statusleiste."</string>
+    <string name="status_bar_toggle_info" msgid="">"Automatische Helligkeit muss deaktiviert sein!"</string>
+    <string name="profile_reset_title" msgid="">"Zurücksetzen"</string>
+    <string name="profiles_add" msgid="">"Hinzufügen"</string>
+    <string name="profile_choose_app" msgid="">"Anwendung wählen"</string>
+    <string name="profile_applist_title" msgid="">"Anwendungen"</string>
+    <string name="picker_activities" msgid="">"Aktivitäten"</string>
+    <string name="select_custom_app_title" msgid="">"Benutzerdefinierte Anwendung wählen"</string>
+    <string name="select_custom_activity_title" msgid="">"Benutzerdefinierte Aktivität wählen"</string>
+    <string name="status_bar_clock" msgid="">"Datum &amp; Uhrzeit"</string>
+    <string name="status_bar_clock_title" msgid="">"Datum &amp; Uhrzeit Stil"</string>
+    <string name="status_bar_clock_summary" msgid="">"Ändert verschiedene Datum &amp; Uhrzeit Einstellungen"</string> 
+    <string name="clock_title_enable" msgid="">"Ausrichtung"</string>
+    <string name="clock_enabled" msgid="">"Aktiviert"</string>
+    <string name="clock_disabled" msgid="">"Deaktiviert"</string>
+    <string name="clock_color_title" msgid="">"Farbe"</string>
+    <string name="status_bar_clock_style_reset" msgid="">"Farbe zurücksetzen"</string>
+    <string name="status_bar_show_clock_title" msgid="">"Datum und Uhrzeit anzeigen"</string>
+    <string name="status_bar_am_pm_title" msgid="">"AM/PM"</string>
+    <string name="status_bar_am_pm_info" msgid="">"24h Format ist aktiviert"</string>
+    <string name="enable_clock_weekday" msgid="">"Wochentag"</string>
+    <string name="enable_clock_weekday_summary" msgid="">"Der Wochentag wird abgekürzt vor der Uhrzeit angezeigt"</string>
+    <string name="right_clock" msgid="">"Uhrzeit rechts"</string>
+    <string name="center_clock" msgid="">"Uhrzeit mittig"</string>
+    <string name="dont_show" msgid="">"Nicht anzeigen"</string>
+    <string name="clock_date_display" msgid="">"Datum"</string>
+    <string name="clock_date_display_summary" msgid="">"Anzeige eines benutzerdefinierten Datums vor der Uhrzeit"</string>
+    <string name="clock_date_style" msgid="">"Stil Datumsanzeige"</string>
+    <string name="clock_date_format" msgid="">"Datumsformat"</string>
+    <string name="clock_date_string_edittext_title" msgid="">"Format beachten z.B. MM/tt/jj"</string>
+    <string name="clock_date_string_edittext_summary" msgid="">"Zeichenfolge eingeben"</string>
+    <string name="am_pm_clock_normal" msgid="">"Normale Schriftgröße"</string>
+    <string name="am_pm_clock_small" msgid="">"Kleine Schriftgröße"</string>
+    <string name="am_pm_clock_none" msgid="">"Nicht anzeigen"</string>
+    <string name="clock_date_display_none" msgid="">"Nicht anzeigen"</string>
+    <string name="clock_date_display_small" msgid="">"Kleine Schriftgröße"</string>
+    <string name="clock_date_display_normal" msgid="">"Normale Schriftgröße"</string>
+    <string name="clock_date_style_normal" msgid="">"Normal"</string>
+    <string name="clock_date_style_lowercase" msgid="">"Kleingeschrieben"</string>
+    <string name="clock_date_style_uppercase" msgid="">"Großgeschrieben"</string>
+    <string name="clock_date_format_custom" msgid="">"Benutzedefiniertes Java Format"</string>
+    <string name="status_bar_clock_style_reset_message" msgid="">"Farbe der Uhr zurücksetzen?"</string>
+    <string name="title_quick_pulldown" msgid="">"Schnelles öffnen der Schnelleinstellungen"</string>
+    <string name="summary_quick_pulldown" msgid="">"%1$s die Statusleiste herunterziehen öffnet die Schnelleinstellungen"</string>
+    <string name="quick_pulldown_off" msgid="">"Aus"</string>
+    <string name="quick_pulldown_left" msgid="">"Links"</string>
+    <string name="quick_pulldown_right" msgid="">"Rechts"</string>
+    <string name="volbtn_music_controls_title" msgid="">"Lautstärketasten Musikkontrolle"</string>
+    <string name="volbtn_music_controls_summary" msgid="">"Wenn das Display aus ist, kann mit langem drücken einer der Lautstärketasten der Titel gewechselt werden."</string>
+    <string name="volume_button_toggle_info" msgid="">"Das "Aufwecken mit den Lautstärketasten" muss deaktiviert werden!"</string>
+    <string name="status_bar_notif_count_title" msgid="">"Zeige Anzahl der Benachrichtigungen"</string>
+    <string name="status_bar_notif_count_summary" msgid="">"Zeigt die Anzahl der ausstehenden Benachrichtigungen an"</string>
+    <string name="unlock_quick_unlock_control_title" msgid="">"Schnelles entsperren"</string>
+    <string name="unlock_quick_unlock_control_summary" msgid="">"Entsperrt das Gerät automatisch, wenn die korrekte PIN/das korrekte Passwort eingegeben wurde."</string>
+    <string name="unlock_scramble_pin_layout_title" msgid="">"Anordnung durchmischen"</string>
+    <string name="unlock_scramble_pin_layout_summary" msgid="">"PIN-Tastenfeld zum entsperren durchmischen"</string>
+    <string name="app_notification_show_on_keyguard_title" msgid="">"Anzeige auf dem Sperrbildschirm"</string>
+    <string name="app_notification_show_on_keyguard_summary" msgid="">"Zeige Benachrichtigungen dieser Anwendung auf dem Sperrbildschirm"</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title" msgid="">"Deaktiviere dauerhafte Benachrichtigungen auf dem Sperrbildschirm"</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary" msgid="">"Zeige niemals dauerhafte Benachrichtigungen dieser Anwendung auf dem Sperrbildschirm"</string>
+    <string name="app_security_title" msgid="">"Anwendungssicherheit"</string>
+    <string name="blacklist_title" msgid="">"Rufnummernblockierung"</string>
+    <string name="blacklist_edit_dialog_title" msgid="">"Einträge der Rufnummernblockierung bearbeiten"</string>
+    <string name="blacklist_prefs" msgid="">"Einstellungen"</string>
+    <string name="blacklist_button_delete" msgid="">"Löschen"</string>
+    <string name="blacklist_empty_text" msgid="">"Du hast bisher keine Rufnummern blockiert. Füge Nummern durch das berühren der (+) Schaltfläche hinzu."</string>
+    <string name="blacklist_disabled_empty_text" msgid="">"Zum blockieren von Anrufen/Nachrichten von einigen Rufnummern, aktiviere die Rufnummernblockierung."</string>
+    <string name="blacklist_summary_disabled" msgid="">"Deaktiviert"</string>
+    <string name="blacklist_summary" msgid="">"Eingehende Anrufe und Nachrichten von Rufnummern in der Liste werden blockiert!"</string>
+    <string name="blacklist_notify" msgid="">"Zeige Benachrichtigungen an"</string>
+    <string name="blacklist_private_numbers_title" msgid="">"Unterdrückte Rufnummern"</string>
+    <string name="blacklist_private_numbers_summary_disabled" msgid="">"Blockiere keine Anrufe von unterdrückten Rufnummern"</string>
+    <string name="blacklist_private_numbers_summary" msgid="">"Blockiere eingehende <xliff:g id="type">%s</xliff:g> von unterdrückten Nummern"</string>
+    <string name="blacklist_unknown_numbers_title" msgid="">"Nicht gespeicherte Nummern"</string>
+    <string name="blacklist_unknown_numbers_summary_disabled" msgid="">"Blockiere keine Anrufe oder Nachrichten von Rufnummern, die nicht als Kontakt gespeichert sind"</string>
+    <string name="blacklist_unknown_numbers_summary" msgid="">"Blockiere eingehende <xliff:g id="type">%s</xliff:g>, die nicht als Kontakt gespeichert sind"</string>
+    <string name="blacklist_summary_type_calls_only" msgid="">"Anrufe"</string>
+    <string name="blacklist_summary_type_messages_only" msgid="">"Nachrichten"</string>
+    <string name="blacklist_summary_type_calls_and_messages" msgid="">"Anrufe und Nachrichten"</string>
+    <string name="blacklist_regex_title" msgid="">"Platzhalter nutzen"</string>
+    <string name="blacklist_regex_summary" msgid="">"Nutze . als Platzhalter und * als Wiederholungszeichen...z.B. 123.* blockiert alle Nummern, die mit 123 beginnen und .*123.* blockiert alle Nummern, die 123 enthalten."</string>
+    <string name="blacklist_policy_block_calls" msgid="">"Blockiere eingehende Anrufe"</string>
+    <string name="blacklist_policy_block_messages" msgid="">"Blockiere eingehende Nachrichten"</string>
+    <string name="blacklist_bad_number_add" msgid="">"Diese Nummer kann nicht hinzugefügt werden, da das Format nicht stimmt!"</string>
+    <string name="add_blacklist_number" msgid="">"Nummer hinzufügen"</string>
+    <string name="remove_blacklist_number_title" msgid="">"Nummer entfernen"</string>
+    <string name="remove_blacklist_entry" msgid="">"Willst Du diesen Eintrag entfernen?"</string>
+    <string name="select_contact" msgid="">"Wähle einen Kontakt"</string>
+    <string name="status_bar_show_weather_title" msgid="">"Wetteranzeige"</string>
+    <string name="status_bar_show_weather_summary" msgid="">"Zeigt das Wetter in den Benachrichtigungen an"</string>
+    <string name="lock_clock_title" msgid="">"Uhrzeit Widget"</string>
+    <string name="lock_clock_summary" msgid="">"Schaue Dir die \'cLock\' Widget Einstellungen an, oder ändere sie"</string>
+    <string name="weather_clock_title" msgid="">"Wetteranzeige in den Benachrichtigungen"</string>
+    <string name="simpleaosp_settings_title" msgid="">"OptiPop Tweaks"</string>
+    <string name="keywords_simpleaosp" msgid="">"SimpleAOSP"</string>
+    <string name="notification_drawer_title" msgid="">"Benachrichtigungsleiste"</string>
+    <string name="qs_category_title" msgid="">"Schnelleinstellungen"</string>
+    <string name="qs_order_title" msgid="">"Anordnung und Auswahl der Felder"</string>
+    <string name="add_qs" msgid="">"Wähle ein neues Feld"</string>
+    <string name="qs_action_delete" msgid="">"Löschen"</string>
+    <string name="qs_action_add" msgid="">"Hinzufügen"</string>
+    <string name="qs_action_no_more_tiles" msgid="">"Keine weiteren Felder verfügbar"</string>
+    <string name="qs_main_tiles_title" msgid="">"Vergrößere erste Reihe"</string>
+    <string name="qs_main_tiles_summary_on" msgid="">"Zwei große Felder in der ersten Reihe"</string>
+    <string name="qs_main_tiles_summary_off" msgid="">"Drei Felder in jeder Reihe"</string>
+    <string name="qs_advanced_location_title" msgid="">"Erweiterte Standort-Schnelleinstellung"</string>
+    <string name="qs_advanced_location_summary" msgid="">"Aktiviert die erweiteten Einstellungen für den Standort in den Schnelleinstellungen"</string>
+    <string name="qs_tile_wifi" msgid="">"Wi\u2011Fi"</string>
+    <string name="qs_tile_bluetooth" msgid="">"Bluetooth"</string>
+    <string name="qs_tile_display_inversion" msgid="">"Farben umkehren"</string>
+    <string name="qs_tile_cellular_data" msgid="">"Mobile Daten"</string>
+    <string name="qs_tile_airplane_mode" msgid="">"Flugzeugmodus"</string>
+    <string name="qs_tile_display_rotation" msgid="">"Display automatisch drehen"</string>
+    <string name="qs_tile_flashlight" msgid="">"Taschenlampe"</string>
+    <string name="qs_tile_location" msgid="">"Standort"</string>
+    <string name="qs_tile_cast_screen" msgid="">"Bildschirmübertragung"</string>
+    <string name="qs_tile_hotspot" msgid="">"Hotspot"</string>
+    <string name="qs_tile_notifications" msgid="">"Benachrichtigungen"</string>
+    <string name="qs_tile_nfc" msgid="">"NFC"</string>
+    <string name="qs_tile_compass" msgid="">"Kompass"</string>
+    <string name="qs_tile_screen_timeout" msgid="">"Ausschaltzeit Display"</string>
+    <string name="qs_tile_lte" msgid="">"LTE"</string>  
+    <string name="qs_expanded_desktop_tile" msgid="">"Vollbildschirm"</string>
+    <string name="qs_screen_off_tile" msgid="">"Display ausschalten"</string>  
+    <string name="qs_sync_tile" msgid="">"Synchronisation"</string>
+    <string name="qs_screenshot_tile" msgid="">"Screenshot"</string>
+    <string name="qs_tile_usb_tether" msgid="">"USB tethering"</string>
+    <string name="privacy_guard_dlg_title" msgid="">"Privatsphären Assistent aktivieren?"</string>
+    <string name="privacy_guard_enable_dlg_text" msgid="">"Wenn der Privatsphären Assistent aktiviert ist, wird es %s nicht mehr möglich sein, auf persönliche Daten wie: Kontakte, Nachrichten, Ruflisten oder den Standort zuzugreifen."</string>
+    <string name="privacy_guard_enable_dlg_system_app_text" msgid="">"Wenn der Privatsphären Assistent aktiviert ist, wird es der Systemanwendung %s nicht mehr möglich sein, auf persönliche Daten wie: Kontakte, Nachrichten, Ruflisten oder den Standort zuzugreifen. Dies kann auch andere Anwendungen beeinflussen."</string>
+    <string name="privacy_guard_default_title" msgid="">"Standardmäßig aktiviert"</string>
+    <string name="privacy_guard_default_summary" msgid="">"Kein Zugriff auf persönliche Daten für neu installierte Anwendungen"</string>
+    <string name="privacy_guard_notification_title" msgid="">"Benachrichtigung"</string>
+    <string name="privacy_guard_notifiation_summary" msgid="">"Zeigt eine Benachrichtigung, wenn der Privatsphären Assistent aktiv ist."</string>
+    <string name="privacy_guard_manager_title" msgid="">"Privatsphären Assistent"</string>
+    <string name="privacy_guard_manager_summary" msgid="">"Kontrolliert, welche Anwendung Zugriff auf Deine persönlichen Daten hat und andere Anwendungsberechtigungen"</string>
+    <string name="privacy_guard_no_user_apps" msgid="">"Es sind keine Anwendungen installiert"</string>
+    <string name="privacy_guard_filter_does_not_match" msgid="">"Es sind keine Anwendungen mit relevanten Berechtigungen installiert".</string>
+    <string name="privacy_guard_help_text" msgid="">"In diesem Fenster kannst du einstellen, für welche Anwendung der Privatsphären Assistent aktiv sein soll, indem Du einfach auf den entsprechenden Eintrag tippst. Die gewählten Anwendungen können nicht mehr auf persönliche Daten wie: Kontakte, Nachrichten, Ruflisten oder den Standort zuzugreifen. Der lange Druck auf einen Eintrag ermöglicht das gezielte Einstellen der Berechtigungen für eine Anwendung.\n\nSystemanwendungen werden standardmäßig nicht angezeigt. Willst Du diese ebenfalls anzeigen oder die Anwendungen nach ihren Berechtigungen filtern, wähle die entsprechende Option im Menü".</string>
+    <string name="privacy_guard_manager_show_system_apps" msgid="">Zeige Systemanwendungen an</string>
+    <string name="privacy_guard_manager_filter_permissions" msgid="">Filter nach Berechtigung</string>
+    <string name="privacy_guard_app_ops_detail_dialog_title" msgid="">Achtung</string>
+    <string name="privacy_guard_app_ops_detail_dialog_text" msgid="">"Die gewählte Anwendung verfügt über keine Berechtigung, die auf Deine persönlichen Daten zugreift. Willst Du die anderen Berechtigungen ändern?"</string>
+    <string name="privacy_guard_app_ops_detail_reset_dialog_text" msgid="">"Alle Berechtigungen auf Standard zurücksetzen?"</string>
+    <string name="app_ops_btn_text" msgid="">"Ändern"</string>
+    <string name="app_ops_no_item_text" msgid="">"Diese Anwendung verfügt über keine änderbaren Berechtigungen"</string>
+    <string name="appops_manager_title" msgid="">"Appops"</string>
+    <string name="appops_manager_summary" msgid="">"Individuelle Einstellung aller Anwendungsberechtigungen"</string>
+    <string name="quick_settings_vibrate_title" msgid="">"Bei Berührung vibrieren"</string>
+    <string name="quick_settings_vibrate_summary" msgid="">"Vibrieren beim Berühren eines Feldes"</string>
+    <string name="qs_brightness_slider_title" msgid="">"Helligkeitsregler anzeigen"</string>
+    <string name="qs_brightness_slider_summary" msgid="">"Zeigt den Helligkeitsregler in den Schnelleinstellungen an"</string>
+    <string name="edit_light_settings" msgid="">"LED Einstellungen ändern"</string>
+    <string name="pulse_speed_title" msgid="">"Leuchtdauer und Wiederholrate"</string>
+    <string name="default_time" msgid="">"Normal"</string>
+    <string name="custom_time" msgid="">"Benutzdefiniert"</string>
+    <string name="dialog_delete_title" msgid="">"Löschen"</string>
+    <string name="dialog_delete_message" msgid="">"Gewählten Eintrag löschen?"</string>
+    <string name="pulse_length_always_on" msgid="">"Immer an"</string>
+    <string name="pulse_length_very_short" msgid="">"Sehr kurz"</string>
+    <string name="pulse_length_short" msgid="">"Kurz"</string>
+    <string name="pulse_length_normal" msgid="">"Normal"</string>
+    <string name="pulse_length_long" msgid="">"Lang"</string>
+    <string name="pulse_length_very_long" msgid="">"Sehr lang"</string>
+    <string name="pulse_speed_very_fast" msgid="">"Sehr schnell"</string>
+    <string name="pulse_speed_fast" msgid="">"Schnell"</string>
+    <string name="pulse_speed_normal" msgid="">"Normal"</string>
+    <string name="pulse_speed_slow" msgid="">"Langsam"</string>
+    <string name="pulse_speed_very_slow" msgid="">"Sehr langsam"</string>
+    <string name="battery_light_title" msgid="">Akku-LED</string>
+    <string name="battery_low_pulse_title" msgid="">"Blinken, wenn der Akku fast leer ist"</string>
+    <string name="battery_light_list_title" msgid="">"Farben"</string>
+    <string name="battery_light_low_color_title" msgid="">"Akku fast leer"</string>
+    <string name="battery_light_medium_color_title" msgid="">"Ladevorgang"</string>
+    <string name="battery_light_full_color_title" msgid="">"Vollständig geladen"</string>
+    <string name="notification_light_title" msgid="">"Benachrichtigungs-LED"</string>
+    <string name="notification_light_general_title" msgid="">"Generell"</string>
+    <string name="notification_light_applist_title" msgid="">"Anwendungen"</string>
+    <string name="notification_light_phonelist_title" msgid="">"Telefon"</string>
+    <string name="notification_light_use_custom" msgid="">"Eigene Werte nutzen"</string>
+    <string name="notification_light_default_value" msgid="">"Standard"</string>
+    <string name="notification_light_missed_call_title" msgid="">"Verpasste Anrufe"</string>
+    <string name="notification_light_voicemail_title" msgid="">"Mailbox"</string>
+    <string name="lockscreen_settings_title" msgid="">"Sperrbildschirm"</string>
+    <string name="lockscreen_targets_message" msgid="">"Sperrbildschirm Verknüpfungen"</string>
+    <string name="lockscreen_default_target" msgid="">"Standard"</string>
+    <string name="lockscreen_none_target" msgid="">"Keine"</string>
+    <string name="lockscreen_message" msgid="">"Tippe auf das linke oder rechte Symbol, um die Verknüpfung zu ändern oder neu zuzuweisen."</string>
+    <string name="lockscreen_choose_action_title" msgid="">"Aktion wählen"</string>
+    <string name="power_menu_expanded_desktop" msgid="">"Erweiterter Desktop"</string>
+    <string name="expanded_hide_nothing" msgid="">"Nichts ausblenden"</string>
+    <string name="expanded_hide_status" msgid="">"Statusleiste ausblenden"</string>
+    <string name="expanded_hide_navigation" msgid="">"Navigationsleiste ausblenden"</string>
+    <string name="expanded_hide_both" msgid="">"Beide Leisten ausblenden"</string>
+    <string name="expanded_nothing_to_show" msgid="">"Zum hinzufügen einer anwendungsspezifischen Konfiguration, muss \'Aktiviert für alle\' auf Aus stehen."</string>
+    <string name="expanded_desktop_state" msgid="">"Erweiterter Desktop Status"</string>
+    <string name="expanded_enabled_for_all" msgid="">"Aktiviert für alle"</string>
+    <string name="expanded_user_configurable" msgid="">"Einstellbar vom Benutzer"</string>
+    <string name="expanded_desktop_style" msgid="">"Stil des erweiterten Desktops"</string>
+    <string name="expanded_desktop_style_description" msgid="">"Wähle einen vorgegebenen Stil"</string>
+    <string name="expanded_desktop_title" msgid="">"Erweiterter Desktop Optionen"/string>
+    <string name="show_enter_key_title" msgid="">"Eingabetaste anzeigen"</string>
+    <string name="show_enter_key_summary" msgid="">"Die Tastatur wird vorrangig die Eingabetaste anstatt der Emoticon Taste anzeigen."</string>
+    <string name="ime_switcher_notify" msgid="">"Auswahlbenachrichtigung"</string>
+    <string name="ime_switcher_notify_summary" msgid="">"Zeigt eine Benachrichtigung an, wenn zwischen mehreren Eingabemöglichkeiten gewählt werden kann."</string>
+    <string name="interruptions_ignore_while_media_title" msgid="">"Musikunterbrechung verhindern"</string>
+    <string name="interruptions_ignore_while_media_summary" msgid="">"Die Musik-Wiedergabelautstärke wird nicht reduziert, wenn eine Benachrichtigung eintrifft."</string>
+    <string name="screen_recorder_title" msgid="">"Bildschirmaufnahme"</string>
+    <string name="screen_recorder_summary" msgid="">"Einstellungen für die Bildschirmaufnahme festlegen"</string>
+    <string name="screen_recorder_video_dimensions_title" msgid="">"Video Größe"</string>
+    <string name="screen_recorder_video_bitrate_title" msgid="">"Bitrate"</string>
+    <string name="power_menu_screenrecord_title" msgid="">"Bildschirmaufnahme"</string>
+    <string name="screen_recorder_power_menu_summary" msgid="">"Fügt einen Eintrag für die Bildschirmaufnahme zum Powermenü hinzu."</string>
+    <string name="screen_recorder_size_240x400" msgid="">"240x400"</string>
+    <string name="screen_recorder_size_360x640" msgid="">"360x640"</string>
+    <string name="screen_recorder_size_480x800" msgid="">"480x800"</string>
+    <string name="screen_recorder_size_480x854" msgid="">"480x854"</string>
+    <string name="screen_recorder_size_540x960" msgid="">"540x960"</string>
+    <string name="screen_recorder_size_600x1024" msgid="">"600x1024"</string>
+    <string name="screen_recorder_size_720x1280" msgid="">"720x1280"</string>
+    <string name="screen_recorder_bitrate_title_100000" msgid="">"100 kB/s"</string>
+    <string name="screen_recorder_bitrate_title_250000" msgid="">"250 kB/s"</string>
+    <string name="screen_recorder_bitrate_title_500000" msgid="">"500 kB/s"</string>
+    <string name="screen_recorder_bitrate_title_1000000" msgid="">"1 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_2000000" msgid="">"2 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_3000000" msgid="">"3 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_4000000" msgid="">"4 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_5000000" msgid="">"5 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_10000000" msgid="">"10 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_20000000" msgid="">"20 MB/s"</string>
+    <string name="screen_recorder_bitrate_100000" msgid="">"100000"</string>
+    <string name="screen_recorder_bitrate_250000" msgid="">"250000"</string>
+    <string name="screen_recorder_bitrate_500000" msgid="">"500000"</string>
+    <string name="screen_recorder_bitrate_1000000" msgid="">"1000000"</string>
+    <string name="screen_recorder_bitrate_2000000" msgid="">"2000000"</string>
+    <string name="screen_recorder_bitrate_3000000" msgid="">"3000000"</string>
+    <string name="screen_recorder_bitrate_4000000" msgid="">"4000000"</string>
+    <string name="screen_recorder_bitrate_5000000" msgid="">"5000000"</string>
+    <string name="screen_recorder_bitrate_10000000" msgid="">"10000000"</string>
+    <string name="screen_recorder_bitrate_20000000" msgid="">"20000000"</string>
+    <string name="screen_recorder_record_audio_title" msgid="">"Mikrofonaufnahme"</string>
+    <string name="screen_recorder_record_audio_summary" msgid="">"Zeichnet die Umgebungsgeräusche über das Mikrofon des Gerätes auf."</string>
+    <string name="power_menu_title" msgid="">"Power Menü"</string>
+    <string name="power_menu_reboot_title" msgid="">"Neustart Menü"</string>
+    <string name="power_menu_screenshot_title" msgid="">"Bildschirmfoto"</string>
+    <string name="power_menu_airplane_title" msgid="">"Flugzeugmodus"</string>
+    <string name="power_menu_users_title" msgid="">"Benutzer wechseln"</string>
+    <string name="power_menu_settings_title" msgid="">"Einstellungsverknüpfung"</string>
+    <string name="power_menu_lockdown_title" msgid="">"Gerät sperren"</string>
+    <string name="power_menu_bug_report_title" msgid="">"Fehlerbericht"</string>
+    <string name="power_menu_sound_title" msgid="">"Benachrichtigungsmodus"</string>
+    <string name="power_menu_bug_report_disabled" msgid="">"Fehlerbericht ist in den Entwickleroptionen deaktiviert."</string>
+    <string name="link_volume_option_title" msgid="">"Gleiche Lautstärke für Anrufe und Benachrichtigungen"</string>
+    <string name="notification_volume_option_title" msgid="">"Benachrichtigungslautstärke"</string>
+    <string name="ring_notification_volume_option_tile" msgid="">"Klingelton- und Benachrichtigungslautstärke"</string>
+    <string name="longpress_lock_icon_to_sleep_title" msgid="">"Long press lock icon to sleep"</string>
+    <string name="longpress_lock_icon_to_sleep_summary" msgid="">"This option will not work if both smart lock and accessibility touch exploration are enabled"</string>   
+    <string name="category_panel_time_out" msgid="">"Bildschirm Timeout"</string>
+    <string name="volume_panel_time_out_title" msgid="">"Lautstärkelpanel Timeout"</string>
+    <string name="volume_panel_time_out_summary" msgid="">"Nach <xliff:g id="number">%d</xliff:g> Sekunden ausblenden. Bei Berührung des Displays außerhalb des Panels automatisch ausblenden."</string>
+    <string name="volume_panel_time_out_1sec" msgid="">"1 Sekunde"</string>
+    <string name="volume_panel_time_out_3sec" msgid="">"3 Sekunden (Standard)"</string>
+    <string name="volume_panel_time_out_5sec" msgid="">"5 Sekunden"</string>
+    <string name="volume_panel_time_out_8sec" msgid="">"8 Sekunden"</string>
+    <string name="volume_panel_time_out_12sec" msgid="">"12 Sekunden"</string>
+    <string name="volume_panel_time_out_15sec" msgid="">"15 Sekunden"</string>
+    <string name="recents_show_searchbar" msgid="">"Suchleiste in "Zuletzt geöffnete Anwendungen" deaktivieren"</string>
+    <string name="recents_show_searchbar_summary" msgid="">"Deaktiviert die Suchleiste unter "Zuletzt geöffnete Anwendungen""</string>
+    <string name="bitsyko_layers" msgid="">"Layers"</string>
+    <string name="none_is_silent_title" msgid="">"Nichts ist lautloser Modus"</string>
+    <string name="none_is_silent_summary" msgid="">"Im lautlosen Modus wird immer der Weckton hörbar sein"</string>
+    <string name="allow_lights_title" msgid="">"Benachrichtigungs-LED im zen mode aktiv"</string>
+    <string name="category_heads_up" msgid="">"Heads up Benachrichtigungen"</string>
+    <string name="summary_heads_up_enabled" msgid="">"Pop-up Benachrichtigungen sind aktiviert"</string>
+    <string name="summary_heads_up_disabled" msgid="">"Pop-up Benachrichtigungen sind deaktiviert"</string>
+    <string name="add_heads_up_package" msgid="">"Anwendung hinzufügen"</string>
+    <string name="add_heads_up_dnd_summary" msgid="">"Keine Heads up Benachrichtigungen in diesen Anwendungen anzeigen"</string>
+    <string name="add_heads_up_blacklist_summary" msgid="">"Keine Heads up Benachrichtigungen von dieser Anwendung anzeigen"</string>
+    <string name="heads_up_dnd_title" msgid="">"Nicht stören"</string>
+    <string name="heads_up_blacklist_title" msgid="">"Gesperrte Anwendungen"</string>
+    <string name="heads_up_disabled_notice" msgid="">"Um es Anwendungen zu ermöglichen interaktive Benachrichtigungen mittels eines Pop up Fensters anzuzeigen, musst Du Heads up aktivieren."</string>
+    <string name="heads_up_time_out_title" msgid="">"Automatisch ausblenden"</string>
+    <string name="heads_up_time_out_summary" msgid="">"Benachrichtigungen werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt"</string>
+    <string name="heads_up_time_out_never_summary" msgid="">"Benachrichtigung wird angezeigt, bis sie quittiert"</string>
+    <string name="heads_up_time_out_1sec" msgid="">"1 Sekunde"</string>
+    <string name="heads_up_time_out_2sec" msgid="">"2 Sekunden"</string>
+    <string name="heads_up_time_out_4sec" msgid="">"4 Sekunden"</string>
+    <string name="heads_up_time_out_6sec" msgid="">"6 Sekunden"</string>
+    <string name="heads_up_time_out_8sec" msgid="">"8 Sekunden"</string>
+    <string name="heads_up_time_out_10sec" msgid="">"10 Sekunden"</string>
+    <string name="heads_up_time_out_never" msgid="">"Niemals"</string>
+    <string name="carrier_options" msgid="">"Provider Anzeige"</string>
+    <string name="show_status_bar_carrier_title" msgid="">"Provider Anzeige in der Statusleiste"</string>
+    <string name="show_status_bar_carrier_summary" msgid="">"Der Provider wird in der Statusleiste angezeigt"</string>
+    <string name="custom_carrier_label_title" msgid="">"Angepasstes Provider Label"</string>
+    <string name="custom_carrier_label_explain" msgid="">"Gib ein angepasstes Label ein oder lösche das Feld, um das vorgegebene Label deines Providers zu nutzen."</string>
+    <string name="custom_carrier_label_notset" msgid="">"Angepasstes Provider Label ist noch nicht eingerichtet"</string>
+    <string name="status_bar_carrier_color" msgid="">"Farbe des Provider Labels"</string>
+    <string name="storage_options_category" msgid="">"Benachrichtigungen"</string>
+    <string name="storage_menu_options" msgid="">"Erweitert"</string>
+    <string name="storage_title_options" msgid="">"Speicheroptionen"</string>
+    <string name="no_media_notification_title" msgid="">""Speicher entfernt" Benachrichtigung"</string>
+    <string name="no_media_notification_summary" msgid="">"Zeigt eine Benachrichtigung an, wenn der externe Speicher entfernt wurde."</string>
+    <string name="mount_notification_title" msgid="">"Benachrichtigung beim anschließen"</string>
+    <string name="mount_notification_summary" msgid="">"Zeigt eine dauerhafte Benachrichtigung an, solange ein externer Speicher angeschlossen ist."</string>
+    <string name="swap_volume_buttons_title" msgid="">"Funktion tauschen"</string>
+    <string name="swap_volume_buttons_summary" msgid="">"Tauscht die Funktion der Lautstärketasten, wenn das Gerät gedreht wird"</string>
+    <string name="notifications_category_title" msgid="">"Benachrichtigungen"</string>
+    <string name="less_notification_sounds_title" msgid="">"Weniger häufige akustische Benachrichtigungen"</string>
+    <string name="less_notification_sounds_summary" msgid="">"Begrenzt die akustischen Benachrichtigungen jeder Anwendung auf ein einziges mal für die gesetzte Zeitdauer."</string>
+    <string name="less_notification_sounds_default" msgid="">"Standardmäßiges Verhalten"</string>
+    <string name="less_notification_sounds_3s" msgid="">"3 Sekunden"</string>
+    <string name="less_notification_sounds_5s" msgid="">"5 Sekunden"</string>
+    <string name="less_notification_sounds_10s" msgid="">"10 Sekunden"</string>
+    <string name="less_notification_sounds_15s" msgid="">"15 Sekunden"</string>
+    <string name="less_notification_sounds_30s" msgid="">"30 Sekunden"</string>
+    <string name="less_notification_sounds_45s" msgid="">"45 Sekunden"</string>
+    <string name="less_notification_sounds_1m" msgid="">"1 Minute"</string>
+    <string name="less_notification_sounds_2m" msgid="">"2 Minuten"</string>
+    <string name="less_notification_sounds_5m" msgid="">"5 Minuten"</string>
+    <string name="less_notification_sounds_15m" msgid="">"15 Minuten"</string>
+    <string name="less_notification_sounds_30m" msgid="">"30 Minuten"</string>
+    <string name="wakelock_blocker_title" msgid="">"Wakelock Blocker"</string>
+    <string name="wakelock_blocker_summary" msgid="">"Verhindert System Wakelocks"</string>
+    <string name="wakelock_blocker_save" msgid="">"Speichern"</string>
+    <string name="wakelock_list_header" msgid="">"Verfügbare Wakelocks"</string>
+    <string name="wakelock_blocker_reload" msgid="">"Aktualisieren"</string>
+    <string name="wakelock_blocker_warning_title" msgid="">"Nutze dies Vorsicht"</string>
+    <string name="wakelock_blocker_warning" msgid="">"Das unterbinden von System Wakelocks kann zu Instabilitäten, Abstürzen oder Datenverlust führen!"</string>
+    <string name="screenshot_sound_title">Bildschirmfoto Ton</string>
+    <string name="lcd_density" msgid="">"LCD Pixeldichte"</string>
+    <string name="lcd_density_summary" msgid="">%d DPI</string>
+    <string name="lcd_density_default" msgid="">"Gerätestandard"</string>
+    <string name="lcd_density_unsupported" msgid="">"Nicht unterstützt"</string>
+    <string name="restarting_ui" msgid="">"Neustart...</string>
+    <string name="shortcut_action_none" msgid="">"Nichts"</string>
+    <string name="shortcut_action_app" msgid="">"Eigene Anwendung"</string>
+    <string name="shortcut_action_home" msgid="">"Home"</string>
+    <string name="shortcut_action_back" msgid="">"Zurück"</string>
+    <string name="shortcut_action_menu" msgid="">"Menü"</string>
+    <string name="shortcut_action_ime" msgid="">"IME Switcher öffnen"</string>
+    <string name="shortcut_action_power_menu" msgid="">"Power Menü"</string>
+    <string name="shortcut_action_recent" msgid="">"zuletzt geöffnete Anwendungen"</string>
+    <string name="shortcut_action_power" msgid="">"Bildschirm aus"</string>
+    <string name="shortcut_action_search" msgid="">"In Anwendung suchen"</string>
+    <string name="shortcut_action_ring_vib" msgid="">"Ton/Vib"</string>
+    <string name="shortcut_action_ring_silent" msgid="">"Ton/Lautlos"</string>
+    <string name="shortcut_action_ring_vib_silent" msgid="">"Ton/Vib/Lautlos"</string>
+    <string name="shortcut_action_camera" msgid="">"Kamera"</string>
+    <string name="shortcut_action_media_next" msgid="">"Musik - nächster Titel"</string>
+    <string name="shortcut_action_media_play_pause" msgid="">"Musik - Play/Pause"</string>
+    <string name="shortcut_action_media_previous" msgid="">"Musik - vorheriger Titel"</string>
+    <string name="shortcut_action_wake_device" msgid="">"Gerät aufwecken"</string>
+    <string name="shortcut_action_kill" msgid="">"Anwendung beenden"</string>
+    <string name="shortcut_action_screenshot" msgid="">"Bildschirmfoto"</string>
+    <string name="shortcut_action_lastapp" msgid="">"Letzte Anwendung"</string>
+    <string name="shortcut_action_notifications" msgid="">"Benachrichtigungen"</string>
+    <string name="shortcut_action_qs" msgid="">"Schnelleinstellungs Panel"</string>
+    <string name="shortcut_action_torch" msgid="">"Taschenlampe"</string>
+    <string name="shortcut_action_ring_vib" msgid="">"Ton/Vib"</string>
+    <string name="shortcut_action_ring_silent" msgid="">"Ton/Lautlos"</string>
+    <string name="shortcut_action_ring_vib_silent" msgid="">"Ton/Vib/Lautlos"</string>
+    <string name="shortcut_action_longpress" msgid="">"Langes drücken:"</string>
+    <string name="shortcut_action_select_action_longpress" msgid="">"Wähle, was beim langen drücken passieren soll:"</string>
+    <string name="shortcut_action_select_action" msgid="">"Aktion auswählen:"</string>
+    <string name="shortcut_action_select_action_newaction" msgid="">"Neue Aktion wählen:"</string>
+    <string name="shortcut_action_reset" msgid="">"Zurücksetzen"</string>
+    <string name="shortcut_action_add" msgid="">"Hinzufügen"</string>
+    <string name="shortcut_action_reset_message" msgid="">"Alle Einträge auf Standard zurücksetzen?"</string>
+    <string name="shortcut_action_max" msgid="">"Die maximale Anzahl an Einträgen wurde erreicht."</string>
+    <string name="shortcut_action_warning" msgid="">"Warnung"</string>
+    <string name="shortcut_action_warning_message" msgid="">"Es ist nicht möglich den letzten Eintrag zu entfernen"</string>
+    <string name="shortcut_action_required_warning_message" msgid="">"Es ist nicht möglich die erforderliche Taste zu löschen"</string>
+    <string name="shortcut_action_disable_message" msgid="">"Deaktiviert:\nErstelle einen Eintrag, um das Feature zu aktivieren."</string>
+    <string name="shortcut_image_not_valid" msgid="">"Die ausgewählte Anwendung enthält kein gültiges Symbol oder unterstützt "Image cropping" nicht. Nutze eine andere Anwendung."</string>
+    <string name="shortcut_duplicate_entry" msgid="">"Die gewählte Aktion kann nicht zweimal hinzugefügt werden"</string>
+    <string name="shortcut_action_help_shortcut" msgid="">"Verknüpfung"</string>
+    <string name="shortcut_action_help_button" msgid="">"Schaltfläche"</string>
+    <string name="shortcut_action_help_app" msgid="">"Anwendung"</string>
+    <string name="shortcut_action_help_icon" msgid="">", beim auswählen des Symbols ermöglicht erweiterte Einstellungen"</string>
+    <string name="shortcut_action_help_main" msgid="">"Zum hinzufügen einer %1$s, benutze die hinzufügen Schaltfläche. Sobald eine %1$s hinzugefügt wird, kann durch die Auswahl der Zeile das Ziel %2$s geändert werden.\n\nZum löschen einer %1$s, wische die Zeile nach links oder rechts weg. Zum sortieren der %1$s halte den Eintrag an der linken Seite fest und ziehe ihn nach oben oder unten.\n\nZum löschen oder um auf den Ursprungszustand zurückzukehren, wähle die "Zurücksetzen" Option in den Einstellungen."</string>
+    <string name="shortcut_action_help_delete_last_entry" msgid="">"Das löschen jeder %1$s aus der Liste wird das Feature sofort deaktivieren".</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry" msgid="">"Das löschen jeder %1$s aus der Liste wird den zweiten PIE Layer sofort deaktivieren".</string>
+    <string name="icon_color_mode_all_icons" msgid="">"Alle Symbole"</string>
+    <string name="icon_color_mode_system_icons" msgid="">"System Symbole"</string>
+    <string name="icon_color_mode_system_custom_icons" msgid="">"System und eigene Symbole"</string>
+    <string name="shortcuts_applications" msgid="">"Anwendungen"</string>
+    <string name="shortcuts_select_custom_app_title" msgid="">"Auswahl einer eigenen Anwendung"</string>
+    <string name="shortcuts_icon_picker_type" msgid="">"Auswahl des Symboltyps:"</string>
+    <string name="shortcuts_icon_default" msgid="">"Standard"</string>
+    <string name="shortcuts_icon_presets" msgid="">"System Symbol"</string>
+    <string name="shortcuts_icon_custom" msgid="">"Gallerie"</string>
+    <string name="shortcuts_icon_picker_choose_icon_title" msgid="">"Symbol wählen"</string>
 </resources>
