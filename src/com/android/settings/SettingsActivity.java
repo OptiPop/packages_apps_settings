@@ -120,6 +120,8 @@ import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+import com.optipop.optitweaks.Optitweaks;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -245,7 +247,8 @@ public class SettingsActivity extends Activity
             R.id.print_settings,
             R.id.nfc_payment_settings,
             R.id.home_settings,
-            R.id.dashboard
+            R.id.dashboard,
+            R.id.optitweaks
     };
 
     private static final String[] ENTRY_FRAGMENTS = {
@@ -315,7 +318,8 @@ public class SettingsActivity extends Activity
             ExpandedDesktopPreferenceFragment.class.getName(),
             HardwareKeysSettings.class.getName(),
             NavbarButtonFragment.class.getName(),
-            PieButtonFragment.class.getName()
+            PieButtonFragment.class.getName(),
+            Optitweaks.class.getName()
     };
 
 

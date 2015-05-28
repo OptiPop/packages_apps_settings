@@ -12,10 +12,12 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := \
         $(call all-java-files-under, src) \
+        $(call all-java-files-under, ../OptiTweaks/src) \
         src/com/android/settings/EventLogTags.logtags
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
-    frameworks/support/v7/cardview/res
+    frameworks/support/v7/cardview/res \
+    packages/apps/OptiTweaks/res
 
 LOCAL_PACKAGE_NAME := Settings
 LOCAL_CERTIFICATE := platform
